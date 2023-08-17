@@ -67,11 +67,7 @@ function Header() {
         <header className={cx('wrapper')}>
             <div className={cx('inner')}>
                 <Link className={cx('logo')} to={config.routes.home} reloadDocument>
-                    <Image
-                        className={cx('logo-item')}
-                        src="https://shopdunk.com/images/thumbs/0012445_Logo_ShopDunk.png"
-                        alt="Shop"
-                    />
+                    <Image className={cx('logo-item')} src="/assets/images/ShopLogo.png" alt="Shop" />
                 </Link>
                 <div className={cx('button-list')}>
                     <ButtonHeader path={config.routes.iphone}>iPhone</ButtonHeader>
