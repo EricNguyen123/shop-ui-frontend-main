@@ -132,8 +132,8 @@ function Footer() {
                     <span className={cx('footer-disclaimer')}>
                         © 2016 Công ty Cổ Phần HESMAN Việt Nam GPDKKD: 0107465657 do Sở KH &amp; ĐT TP. Hà Nội cấp ngày
                         08/06/2016.
-                        <br /> Địa chỉ: Số 76 Thái Hà, phường Trung Liệt, quận Đống Đa, thành phố Hà Nội, Việt Nam{' '}
-                        <br /> Đại diện pháp luật: PHẠM MẠNH HÒA | ĐT: 0247.305.9999 | Email: lienhe@shopdunk.com
+                        <br /> Địa chỉ: Số 76 Thái Hà, phường Trung Liệt, quận Đống Đa, thành phố Hà Nội, Việt Nam
+                        <br /> ĐT: 0247.306.9999 | Email: lienhe@shop.com
                     </span>
                     <a href="http://online.gov.vn/(X(1)S(jfktnnku5rui3vjf5pnk4sgc))/Home/WebDetails/34144?AspxAutoDetectCookieSupport=1">
                         <Image
