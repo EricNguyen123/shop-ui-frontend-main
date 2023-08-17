@@ -233,6 +233,9 @@ function DeliveryAddress() {
                                                             data-address={data.id}
                                                             onClick={() => {
                                                                 setDeleteAddress(data.id);
+                                                                setTimeout(() => {
+                                                                    window.location.reload();
+                                                                }, 500);
                                                             }}
                                                         >
                                                             <span>Xóa</span>
