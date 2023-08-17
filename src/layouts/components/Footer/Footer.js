@@ -2,6 +2,7 @@ import classNames from 'classnames/bind';
 import styles from './Footer.module.scss';
 import { Link } from 'react-router-dom';
 import Image from '~/components/Image';
+import imgage from '~/assets/images';
 import config from '~/config';
 
 const cx = classNames.bind(styles);
@@ -12,12 +13,8 @@ function Footer() {
             <div className={cx('footer-upper')}>
                 <div className={cx('follow-us')}>
                     <div className={cx('logo')}>
-                        <Link to={config.routes.home}>
-                            <Image
-                                className={cx('image')}
-                                src="https://shopdunk.com/images/thumbs/0012445_Logo_ShopDunk.png"
-                                alt="logo"
-                            />
+                        <Link to={config.routes.home} reloadDocument>
+                            <Image className={cx('image')} src={imgage.shopLogo} alt="logo" />
                         </Link>
                     </div>
                     <div className={cx('topic')}>

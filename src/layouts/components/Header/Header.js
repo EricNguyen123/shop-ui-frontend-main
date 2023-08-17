@@ -6,6 +6,7 @@ import { faCartShopping, faUser } from '@fortawesome/free-solid-svg-icons';
 import Tippy from '@tippyjs/react/headless';
 
 import Image from '~/components/Image';
+import imgage from '~/assets/images';
 import config from '~/config';
 import ButtonHeader from '~/layouts/components/ButtonHeader';
 import { useEffect, useState } from 'react';
@@ -67,7 +68,7 @@ function Header() {
         <header className={cx('wrapper')}>
             <div className={cx('inner')}>
                 <Link className={cx('logo')} to={config.routes.home} reloadDocument>
-                    <Image className={cx('logo-item')} src="/assets/images/ShopLogo.png" alt="Shop" />
+                    <Image className={cx('logo-item')} src={ imgage.shopLogo} alt="Shop" />
                 </Link>
                 <div className={cx('button-list')}>
                     <ButtonHeader path={config.routes.iphone}>iPhone</ButtonHeader>
