@@ -215,7 +215,7 @@ function InfoAccount() {
                                                 setCheckUploadPassword(true);
                                                 setTimeout(() => {
                                                     window.location.reload();
-                                                });
+                                                }, 500);
                                             }
                                         }}
                                     >
@@ -560,7 +560,7 @@ function InfoAccount() {
                                         setCheckUpload(true);
                                         setTimeout(() => {
                                             window.location.reload();
-                                        });
+                                        }, 500);
                                     }}
                                 >
                                     <span>Cập nhập thông tin</span>
