@@ -212,7 +212,9 @@ function InfoAccount() {
                                         onClick={() => {
                                             if (newConfirmPassword === newPassword) {
                                                 setCheckUploadPassword(true);
-                                                window.location.reload();
+                                                setTimeout(() => {
+                                                    window.location.reload();
+                                                });
                                             }
                                         }}
                                     >
@@ -555,7 +557,9 @@ function InfoAccount() {
                                     title="Cập nhập thông tin"
                                     onClick={() => {
                                         setCheckUpload(true);
-                                        window.location.reload();
+                                        setTimeout(() => {
+                                            window.location.reload();
+                                        });
                                     }}
                                 >
                                     <span>Cập nhập thông tin</span>
