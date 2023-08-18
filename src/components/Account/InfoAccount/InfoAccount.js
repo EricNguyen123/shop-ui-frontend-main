@@ -210,7 +210,8 @@ function InfoAccount() {
                                         type="submit"
                                         className={cx('action', 'save', 'primary')}
                                         title="Cập nhật"
-                                        onClick={() => {
+                                        onClick={(e) => {
+                                            e.preventDefault();
                                             if (newConfirmPassword === newPassword) {
                                                 setCheckUploadPassword(true);
                                                 setTimeout(() => {
@@ -556,7 +557,8 @@ function InfoAccount() {
                                     type="submit"
                                     className={cx('action', 'save', 'primary')}
                                     title="Cập nhập thông tin"
-                                    onClick={() => {
+                                    onClick={(e) => {
+                                        e.preventDefault();
                                         setCheckUpload(true);
                                         setTimeout(() => {
                                             window.location.reload();
