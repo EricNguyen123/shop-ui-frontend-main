@@ -213,7 +213,7 @@ function InfoAccount() {
                                         onClick={() => {
                                             if (newConfirmPassword === newPassword) {
                                                 setCheckUploadPassword(true);
-                                                window.location.reload();
+                                                // window.location.reload();
                                             }
                                         }}
                                     >
