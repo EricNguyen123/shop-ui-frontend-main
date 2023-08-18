@@ -51,6 +51,7 @@ function InfoAccount() {
             ...data,
             firstName: `${firstname.trim()} ${lastname.trim()}`,
             email: newEmail,
+            birthday: `${newDay}/${newMonth}/${newYear}`,
             day: newDay,
             month: newMonth,
             year: newYear,
